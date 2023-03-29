@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebServiceRequestEntity>
+   <description></description>
+   <name>updatePetWithForm</name>
+   <tag></tag>
+   <elementGuidId>20481ca8-409d-48c0-8477-0cca0bbb238b</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <connectionTimeout>-1</connectionTimeout>
+   <followRedirects>false</followRedirects>
+   <httpBody></httpBody>
+   <httpBodyContent>{
+  &quot;parameters&quot;: [
+    {
+      &quot;name&quot;: &quot;name&quot;
+    },
+    {
+      &quot;name&quot;: &quot;status&quot;
+    }
+  ]
+}</httpBodyContent>
+   <httpBodyType>x-www-form-urlencoded</httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Content-type</name>
+      <type>Main</type>
+      <value>application/json</value>
+      <webElementGuid>bf5c62ee-8483-441b-9862-b427d8c58e40</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Content-type</name>
+      <type>Main</type>
+      <value>application/xml</value>
+      <webElementGuid>aca82b43-233a-4839-b9c9-a75f76a6f7d2</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Accept</name>
+      <type>Main</type>
+      <value>application/x-www-form-urlencoded</value>
+      <webElementGuid>9c3b8b4b-197f-47e7-989d-434c0e89b6ae</webElementGuid>
+   </httpHeaderProperties>
+   <katalonVersion>8.5.5</katalonVersion>
+   <maxResponseSize>-1</maxResponseSize>
+   <migratedVersion>5.4.1</migratedVersion>
+   <restRequestMethod>POST</restRequestMethod>
+   <restUrl>https://petstore.swagger.io/v2/pet/${petId}</restUrl>
+   <serviceType>RESTful</serviceType>
+   <soapBody></soapBody>
+   <soapHeader></soapHeader>
+   <soapRequestMethod></soapRequestMethod>
+   <soapServiceEndpoint></soapServiceEndpoint>
+   <soapServiceFunction></soapServiceFunction>
+   <socketTimeout>-1</socketTimeout>
+   <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <variables>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>611c6b63-1566-4a65-84a6-da8319d43c38</id>
+      <masked>false</masked>
+      <name>petId</name>
+   </variables>
+   <wsdlAddress></wsdlAddress>
+</WebServiceRequestEntity>
